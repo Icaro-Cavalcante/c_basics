@@ -2,6 +2,13 @@
 #include <stdbool.h>
 
 int main() {
+    
+    // int = números inteiros (4 bytes em sistemas modernos)
+    // float = número de Ponto Flutuante de Precisão Simples (4 bytes)
+    // double = número de Ponto Flutuante de Precisão Dupla (8 bytes)
+    // char = caracter único (1 byte)
+    // char[] = array de characters (tamanho varia)
+    // bool = verdadeiro ou falso (1 byte, requer <stdbool.h>)
 
     int idade = 18;
     printf("Eu tenho %d anos.\n", idade);
